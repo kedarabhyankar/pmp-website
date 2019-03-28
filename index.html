@@ -2,65 +2,130 @@
 <html lang="en">
 
 <head>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Purdue Music Producers</title>
 
-    <title>Purdue Music Producers</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/purdueMusicProducersCSS.css" rel="stylesheet">
 
+  <!-- stuff for loading screen -->
+  <script src="/js/pace.js"></script>
 </head>
 
-<body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a id = "item1" href="#">Log In</a>
-        <a id = "item2" href="#">Item 1</a>
-        <a id = "item3" href="#">Item 2</a>
-        <a id = "item4" href="#">Our Story</a>
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Purdue Music Producers</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#whoarewe">Who are We?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#studio">The Studio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#pmpsoundcloud">PMP Soundcloud</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#officers">Our Officers</a>
+        </li>
+      </ul>
     </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Purdue Music Producers</a>
-        </div>
-    </nav>
+  </nav>
 
-    <!-- Page Content -->
-    <div id="main">
-        <div class="container">
-            <span onclick="openNav()"><img src="images/hamburgerMenu.png" style="width:5%; height:5%;"></span>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="mt-5">Purdue Music Producers</h1>
-                </div>
-            </div>
-        </div>
+  <div class="container-fluid p-0">
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0">Purdue Music Producers</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p> We are Purdue Music Producers - we're all students at Purdue University, studying different
+            majors, <br> but united out of our interest and love for making music. We meet every week in PAO B185, on
+            Thursdays from 6:30PM to 8:30PM.<br><br> We all come from different music production backgrounds. Some of us
+            like to make beats in a variety of programs - FL Studio, Ableton, Reaper, Pro Tools, and Logic Pro X, just to name
+            a few. In addition, members who don't make beats may rap, sing, or just play an instrument - and they're
+            all welcome. Even if the thought has ever crossed your mind of producing music, we highly urge you to come 
+            to the club. Boiler Up!</p>
+      </div>
+    </section>
 
-        <script>
-        </script>
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-            }
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5">The Studio</h2>
+        <img src="img/YKHOVPA.jpeg" style="width:50%; height:50%;">
+        <img src="img/Piano Room.jpeg" style="width:50%; height:50%;">
+      </div>
+    </section>
 
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
-                document.body.style.backgroundColor = "white";
-            }
-        </script>
-    </div>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5">PMP SoundCloud</h2>
+      </div>
+      <iframe width="100%" height="300" scrolling="true" frameborder="no"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/570140616&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      <br>
+      <br>
+      <br>
+      <p> Some of our club members personal pages are below as well: </p>
+      <br>
+      <br>
+      <br>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no"  
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/161798785&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      <br>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" 
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/5137185&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no"  
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/141309681&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      <iframe width="100%" height="300" scrolling="no" frameborder="no"  
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/28569237&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5">Our Officers</h2>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+
 </body>
 
 </html>
